@@ -29,4 +29,4 @@ G=G_train(G,D01(ShTr01(1).S,:),1);
 
 MultipleTest.m: multiple test on all different lengths of train and test sequences in SequencesSeries01.mat and with different percentages of supervisions
 
-Train_video_01ex.avi and Test_video_01ex.avi are two short video of the MNIST's digit 0,1 created from a portion of a generated sequence respectvely from training and test sets
+Train_video_01ex.avi and Test_video_01ex.avi are two short video of the MNIST's digit 0,1 created from a portion of a generated sequence respectively from training and test sets
