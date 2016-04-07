@@ -52,7 +52,7 @@ function n = random_point(Data,n,visits_counter,step,d,s,sigma)
 p = rand();
 
 if p < d
-    n = follow_link(Data,n,visits_counter,step,s,sigma,simply);
+    n = follow_link(Data,n,visits_counter,step,s,sigma);
 else
     range = [1 size(Data,1)];
     r = randi(range,1,1);
