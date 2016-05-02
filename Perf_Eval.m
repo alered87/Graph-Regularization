@@ -20,20 +20,10 @@ targets = targets(isfinite(targets(:,end)),:);
 
 N = size(predictions);
 
-correct = 0;
-error = 0;
+MSE = mean((0.5/N(2))*sum((predictions-targets).^2));
 
-for i=1:N(1)
-    diff = predictions(i,:) - targets(i,:);
-    error = error + (diff*diff')/(2*N(2));
-    pred = find(predictions(i,:)==max(predictions(i,:)));        
-    sup = find(targets(i,:)==max(targets(i,:)));
-    if pred(1) == sup(1)            
-        correct = correct+1;  
-    end
-end
-
-MSE = error/N(1) ;
-Accuracy = correct/N(1) ;
+[~,IP]=max(predictions,[],2);
+[~,IY]=max(targets,[],2);
+Accuracy = mean(IY==IP);
 
 
