@@ -15,9 +15,10 @@ to calculate performance on a given testSet: [Accuracy,MSE] = G.test(testSet);
 
 euclidean.m : compute the Euclidean distance between the elements of two matrix
 
-MNISTtrainingSequence*.mat : files containing portion of the training sequence generated from the MNIST(1) dataset 
-(1) see: http://yann.lecun.com/exdb/mnist/ dataset
+MNISTtrainingSequence*.mat : files containing portion of the training sequence generated from the MNIST dataset [1] 
 
-MNISTtest.mat : test set from MNIST
+MNISTtest.mat : test set from MNIST [1]
 
 MNISTvideo.avi : video of a little portion of the training sequence (40sec)
+
+[1] see: http://yann.lecun.com/exdb/mnist/ dataset
