@@ -21,4 +21,5 @@ MNISTtest.mat : test set from MNIST [1]
 
 MNISTvideo.avi : video of a little portion of the training sequence (40sec)
 
-[1] see: http://yann.lecun.com/exdb/mnist/ dataset
+
+[1] see: http://yann.lecun.com/exdb/mnist/
