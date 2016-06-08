@@ -19,3 +19,5 @@ MNISTtrainingSequence*.mat : files containing portion of the training sequence g
 (1) see: http://yann.lecun.com/exdb/mnist/ dataset
 
 MNISTtest.mat : test set from MNIST
+
+MNISTvideo.avi : video of a little portion of the training sequence (40sec)
