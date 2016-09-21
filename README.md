@@ -50,7 +50,8 @@ requiring as argument data and the number of Epochs. Training can be restarted o
 <img src="pictures/test.png" alt="Testing" align="left"><br/>
 
 
-##Contacts: 
+###Contacts: 
 Alessandro Rossi : rossi111@unisi.it
 
+###References:
 [1] see: http://yann.lecun.com/exdb/mnist/
