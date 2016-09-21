@@ -1,7 +1,6 @@
 # Graph-Regularization
 In this repository you will find the essentials Matlab scripts to simulating the algorithm proposed in the paper:
-
-“On-line Learning On Temporal Manifolds” (Marco Maggini, Alessandro Rossi , 2016) 
+`On-line Learning On Temporal Manifolds` (Marco Maggini, Alessandro Rossi , 2016) 
 
 ## Functions
 
