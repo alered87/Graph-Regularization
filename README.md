@@ -40,7 +40,7 @@ all the argument of [TRgraph.m](https://github.com/alered87/Graph-Regularization
 
 <img src="pictures/imrecommand.png" alt="Plotting Impulsive Response" align="left"/><br/>
 <img src="pictures/imreplot.png" alt="Impulsive Response Plot"/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 The training can be started by 
 
 <img src="pictures/train.png" alt="Start Training" align="left"/><br/>
