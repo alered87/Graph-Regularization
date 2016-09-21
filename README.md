@@ -1,8 +1,9 @@
 # Graph-Regularization
-MATLAB scripts for computing “On-line Learning On Temporal Manifolds”
+In this repository you will find the essentials MATLAB scripts to simulating the algorithm proposed in the paper:
+“On-line Learning On Temporal Manifolds”
 Authors: Marco Maggini, Alessandro Rossi (2016) 
-Contacts: rossi111@unisi.it
 
+Contacts: rossi111@unisi.it
 
 makeSystemMatrix.m : compute the matrices of the dynamical system
 
