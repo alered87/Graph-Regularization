@@ -46,7 +46,7 @@ all the argument of [TRgraph.m](https://github.com/alered87/Graph-Regularization
 ```matlab
 imre = PlotImpulsiveResponse(G.solutions,0,30);
 ```
-<img src="pictures/imreplot.png" alt="Impulsive Response Plot"/><br/>
+<img src="imreplot.png" alt="Impulsive Response Plot"/><br/>
 
 The training can be started by 
 
