@@ -40,7 +40,7 @@ all the argument of [TRgraph.m](https://github.com/alered87/Graph-Regularization
 
 <img src="pictures/imrecommand.png" alt="Plotting Impulsive Response" align="left"/><br/>
 <img src="pictures/imreplot.png" alt="Impulsive Response Plot" align="left" height="300" width="400"/><br/>
-
+<br/><br/><br/><br/><br/><br/>
 The training can be started by 
 
 <img src="pictures/train.png" alt="Start Training" align="left"/><br/>
@@ -48,7 +48,9 @@ The training can be started by
 requiring as argument data and the number of Epochs. Training can be restarted on different data of the same dimension, so its better start with 1 epochs and check performance on the matrix of test data of the same form:
 
 
-<img src="pictures/test.png" alt="Testing" align="left"/><br/><br/><br/><br/>
+<img src="pictures/test.png" alt="Testing" align="left"/>
+
+<br/><br/><br/><br/><br/><br/>
 
 ###Contacts: 
 Alessandro Rossi : rossi111@unisi.it
