@@ -21,6 +21,10 @@ Computes the Euclidean distance pair-wise between the elements of two matrices (
 ## Data
 
 MNISTtrainingSequence*.mat files containing (in order) a slice of the complete train sequence. Each files contains a matrix Data* collecting row-wise each sample (column 1 to 784) and its target (column 785 to 794). The complete sequence can be obtained by concatenating them:
+
+<img src="data.png" alt="Data" align="left">
+
+
 >> Data = [Data1;Data2;Data3;Data4];
 
 MNISTtest.mat : its the original test set from MNIST [1], already extracted and processed so as to normalize features in [0,1]
@@ -40,7 +44,7 @@ all the argument of [TRgraph.m](https://github.com/alered87/Graph-Regularization
 The training can be started by 
 >> G.train(Data,Epochs);
 
-requiring the number of Epochs. Training can be restarted on different data of the same dimension, so its better start with 1 epochs and check performance on the matrix of test data of the same form:
+requiring as argument data and the number of Epochs. Training can be restarted on different data of the same dimension, so its better start with 1 epochs and check performance on the matrix of test data of the same form:
 
 >> [Accuracy,MSE] = G.test(testSet);
 
