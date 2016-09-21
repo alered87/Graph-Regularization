@@ -1,6 +1,7 @@
 # Graph-Regularization
 In this repository you will find the essentials Matlab scripts to simulating the algorithm proposed in the paper:
-`On-line Learning On Temporal Manifolds` (Marco Maggini, Alessandro Rossi , 2016) 
+
+"On-line Learning On Temporal Manifolds" (Marco Maggini, Alessandro Rossi , 2016) 
 
 ## Functions
 
@@ -19,7 +20,7 @@ Computes the Euclidean distance pair-wise between the elements of two matrices (
 
 ## Data
 
-MNISTtrainingSequence*.mat files containing (in order) a slice of the complete train sequence. Each files contains a matrix Data* collecting row-wise each sample (column 1 to 784) and its target (column 785 to 794). The complete sequence can be obtained by concatenating them:
+MNISTtrainingSequence\*.mat files containing (in order) a slice of the complete train sequence. Each files contains a matrix Data* collecting row-wise each sample (column 1 to 784) and its target (column 785 to 794). The complete sequence can be obtained by concatenating them:
 
 <img src="pictures/data.png" alt="Data Definition" align="left"/><br/>
 
