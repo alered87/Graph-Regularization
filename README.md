@@ -22,7 +22,7 @@ Computes the Euclidean distance pair-wise between the elements of two matrices (
 
 MNISTtrainingSequence*.mat files containing (in order) a slice of the complete train sequence. Each files contains a matrix Data* collecting row-wise each sample (column 1 to 784) and its target (column 785 to 794). The complete sequence can be obtained by concatenating them:
 
-<img src="pictures/data.png" alt="Data" align="left"/>
+<p><img src="pictures/data.png" alt="Data" align="left"/></p>
 
 MNISTtest.mat : its the original test set from MNIST [1], already extracted and processed so as to normalize features in [0,1]
 
