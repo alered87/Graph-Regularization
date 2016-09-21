@@ -48,9 +48,9 @@ The training can be started by
 requiring as argument data and the number of Epochs. Training can be restarted on different data of the same dimension, so its better start with 1 epochs and check performance on the matrix of test data of the same form:
 
 
-<img src="pictures/test.png" alt="Testing" align="left"/>
+<p><img src="pictures/test.png" alt="Testing" align="left"/></p>
 
-<br/><br/><br/><br/><br/><br/>
+
 
 ###Contacts: 
 Alessandro Rossi : rossi111@unisi.it
