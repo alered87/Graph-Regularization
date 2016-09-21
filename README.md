@@ -59,11 +59,11 @@ requiring as argument data and the number of Epochs. Training can be restarted o
 ```matlab
 [Accuracy,MSE] = G.test(testData)
 
-Accuracy =
+Accuracy
 
     0.8767
 
-MSE =
+MSE
 
     0.0123
 ```
