@@ -51,13 +51,21 @@ imre = PlotImpulsiveResponse(G.solutions,0,30);
 The training can be started by 
 
 ```matlab
->> G.train(Data,1)
+G.train(Data,1)
 ```
 
 requiring as argument data and the number of Epochs. Training can be restarted on different data of the same dimensionality, so its better start with 1 epochs and check performance on the matrix of test data of the same form:
 
 ```matlab
 [Accuracy,MSE] = G.test(testData)
+
+Accuracy = 
+
+    0.8767
+
+MSE = 
+
+    0.0123
 ```
 
 ###Contacts: 
