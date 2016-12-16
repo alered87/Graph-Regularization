@@ -40,7 +40,7 @@ switch l
             order = parameters(2);
             solutions = SpreadTheta(parameters');
             p = poly(solutions);      
-            reversed_poly_coefficients = -fliplr(p(2:5));
+            reversed_poly_coefficients = -fliplr(p(2:end));
         end
     case 4
         type = size(parameters);
@@ -131,7 +131,7 @@ solutions(1) = -1/memory; % memory solution
 
 switch order
     case 2 % theta=sum(solutions)
-        solutions(2) = theta+solutions(1);
+        solutions(2) = -theta-solutions(1);
     case 4 % theta=2*sum(solutions) spreated out according to spread_coeffs
         spread_coeffs = [0.6, 0.65, 0.75]; 
         solutions(2)=-spread_coeffs(1)*theta;
